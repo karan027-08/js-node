@@ -1,7 +1,6 @@
 const https = require('https');
 const fs = require("fs");
-const { resolve } = require('path');
-const { resolveObjectURL } = require('buffer');
+
 
 // function for displaying search history.
 function historyShow(url) {
