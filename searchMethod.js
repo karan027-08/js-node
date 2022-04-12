@@ -11,7 +11,7 @@ function getResult(name1) {
             // check for Value is present or not 
             let flag = true;
             for (x in newData) {
-                if (name1 === newData[x].name) {
+                if (name1.toLowerCase() === newData[x].name.toLowerCase()) {
                     console.log(newData[x]);
                     flag = false;
                 }
